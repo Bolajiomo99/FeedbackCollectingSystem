@@ -1,3 +1,4 @@
+import React, {useState, useEffect, useRef} from "react";
 
 function Sidebar(){
     const Sidebar1 = "Dashbord";
@@ -11,7 +12,8 @@ function Sidebar(){
     const Sidebar9 = "Feedback";
 
     return(
-        <ul>
+        <div className="sidebar">
+             <ul>
             <li>{Sidebar1}</li>
             <li>{Sidebar2}</li>
             <li>{Sidebar3}</li>
@@ -22,6 +24,8 @@ function Sidebar(){
             <li>{Sidebar8}</li>
             <button>{Sidebar9}</button>
         </ul>
+        </div>
+       
 
     );
 }
