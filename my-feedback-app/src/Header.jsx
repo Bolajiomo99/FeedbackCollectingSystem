@@ -6,16 +6,13 @@ function Header(){
         <header>
             <h1><img src=""></img>Zidio <br/>Learning</h1> 
             <button><p>Quick search</p></button>
-            <button><p>User 1</p></button>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                    
-                </ul>
+                    <h2><a href="#">Home</a></h2>
+                    <h2><a href="#">About</a></h2>
+                    <h2><a href="#">Services</a></h2>
+                    <h2><a href="#">Contact</a></h2>
             </nav>
+            <button><p>User 1</p></button>
             <hr></hr>
         </header>
     );
