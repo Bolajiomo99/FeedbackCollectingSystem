@@ -59,15 +59,15 @@ button:focus-visible {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: -620px;
   margin-left: 350px;
-  background-color: #f9f9f9;
-  border: 40px solid hsla(0, 0%, 100%, 0.973);
+  background-color: white;
+  border: 40px solid hsl(0, 0%, 100%);
   border-radius: 15px;
   width: 65%;
 }
 
 .sidebar{
-  background-color: #f9f9f9;
-  border: 40px solid hsla(0, 0%, 100%, 0.973);
+  background-color: white;
+  border: 40px solid hsl(0, 0%, 100%);
   border-radius: 15px;
   width: 30%;
   margin: 4%;
