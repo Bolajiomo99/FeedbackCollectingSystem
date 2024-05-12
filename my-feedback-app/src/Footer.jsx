@@ -1,9 +1,11 @@
 
 function Footer(){
     return(
-        <footer>
-            <p>&copy; {new Date().getFullYear()} Zidio Feedback Collecting system</p>
-        </footer>
+        <div className="footer">
+            <footer>
+        <p>&copy; {new Date().getFullYear()} Zidio Feedback Collecting system</p>
+    </footer></div>
+        
     );
 
 

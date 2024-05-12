@@ -24,16 +24,16 @@ function Body(){
    
 
     return(
-        <div className="body">
-            <strong><h2>Share your Feedback</h2></strong>
-            <p>Rate your Experiences</p>
+        <div className="nav-body">
+            <h2 className="h2-value">Share your Feedback</h2>
+            <p className="p-value">Rate your Experiences</p>
             <p>Terrible   Poor   Average   Good   Awesome</p>
             <strong>Comment</strong>(Optional)<br/>
             <div>
                 <input type="text" 
                 placeholder="Enter your Feedback"
                 value={newTask}
-                onChange={handleInputChange}/>
+                onChange={handleInputChange}/><br/>
                 <button
                 className="add-send"
                 onClick={addTask}>

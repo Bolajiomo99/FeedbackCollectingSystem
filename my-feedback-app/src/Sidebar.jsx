@@ -1,4 +1,5 @@
-import React, {useState, useEffect, useRef} from "react";
+import { useState } from "react";
+
 
 function Sidebar(){
     const Sidebar1 = "Dashbord";
@@ -11,18 +12,41 @@ function Sidebar(){
     const Sidebar8 = "Test Results";
     const Sidebar9 = "Feedback";
 
+    const [tasks, setTasks] = useState([]);
+    const [newTask, setNewTask] = useState("");
+
+    function handleInputChange(event){
+        setNewTask(event.target.value);
+
+    }
+    function addTask(){
+
+    }
+    function deleteTask(index){
+
+    }
+    function moveTaskUp(index){
+
+    }
+    function moveTaskDown(index){
+
+    }
+
     return(
         <div className="sidebar">
              <ul>
-            <li>{Sidebar1}</li>
-            <li>{Sidebar2}</li>
-            <li>{Sidebar3}</li>
-            <li>{Sidebar4}</li>
-            <li>{Sidebar5}</li>
-            <li>{Sidebar6}</li>
-            <li>{Sidebar7}</li>
-            <li>{Sidebar8}</li>
-            <button>{Sidebar9}</button>
+            <ol>{Sidebar1}</ol>
+            <ol>{Sidebar2}</ol>
+            <ol>{Sidebar3}</ol>
+            <ol>{Sidebar4}</ol>
+            <ol>{Sidebar5}</ol>
+            <ol>{Sidebar6}</ol>
+            <ol>{Sidebar7}</ol>
+            <ol>{Sidebar8}</ol>
+            <button
+            className="add-feedback"
+            onClick={addTask}
+            >{Sidebar9}</button>
         </ul>
         </div>
        

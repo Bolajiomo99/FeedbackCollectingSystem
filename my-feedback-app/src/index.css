@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: rgb(238, 233, 233);
 }
 
 h1 {
@@ -54,6 +55,80 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.nav-body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -460px;
+  margin-left: 500px;
+}
+
+.sidebar{
+  margin: 10px;
+
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(o, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+
+}
+.add-send{
+  border-radius: 8px;
+  border: 2Spx solid transparent;
+  margin-top: 20px;
+  width: 340px;
+  padding: 15px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: hsla(209, 83%, 54%, 0.918);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.add-send:hover {
+  border-color: #646cff;
+}
+.add-send:focus,
+.add-send:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.add-feedback{
+  border-radius: 8px;
+  border: 2Spx solid transparent;
+  margin-top: 20px;
+  margin-left: -20px;
+  width: 200px;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: hsla(209, 83%, 54%, 0.918);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.add-feedback:hover {
+  border-color: #646cff;
+}
+.add-feedback:focus,
+.add-feedback:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+ol{
+  margin-bottom: 3%;
+}
+
+.h2-value, .p-value{
+  text-align: center;
+ 
+}
+
+.p-value{
+  margin-bottom: 40px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -65,4 +140,8 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.footer{
+  margin: 10em;
+  text-align: center;
 }
