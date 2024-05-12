@@ -11,8 +11,8 @@ function App() {
       <>
            <Header/>
            <Sidebar/> 
-           <Body/>
            <Card/>
+           <Body/>
            <Footer/>
 
        </>
